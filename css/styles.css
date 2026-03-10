@@ -453,17 +453,32 @@ button {
   }
 }
 
-@media (min-resolution: 192dpi) {
+@media screen and (min-resolution: 192dpi) and (max-width: 767px) {
   .hero {
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+        rgba(46, 47, 66, 0.7)),
       url(../images/background-image@2x.jpg);
   }
 }
 
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/background-image@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/background-image@2x.jpg);
+  }
+}
 /* =========FEATURES SECTION ======*/
 
 .visually-hidden {
@@ -731,7 +746,7 @@ button {
   }
 
   .product-list-item {
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
 
@@ -924,7 +939,7 @@ button {
     flex-wrap: nowrap;
     gap: 0;
     padding-left: 0;
-    padding-right: 0;
+      padding-right: 0;
   }
 
   .footer-text-wrap {
