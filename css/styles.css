@@ -1007,6 +1007,12 @@ button {
   pointer-events: auto;
 }
 
+.backdrop .is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .modal {
   width: 288px;
   min-height: 623px;
