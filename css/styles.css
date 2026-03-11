@@ -257,6 +257,7 @@ button {
 }
 
 .mob-menu-wrap {
+  display: flex;
   position: relative;
   padding-top: 72px;
   padding-bottom: 40px;
@@ -538,6 +539,9 @@ button {
   }
 }
 
+.features-icon-wrap {
+  display: none;
+}
 @media screen and (min-width: 1158px) {
   .features-list {
     gap: 24px;
@@ -573,10 +577,6 @@ button {
   .features-list-text {
     font-weight: 400;
   }
-}
-
-.features-icon-wrap {
-  display: none;
 }
 
 /* TEAM SECTION */
