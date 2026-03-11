@@ -952,7 +952,12 @@ button {
     max-width: 1158px;
     max-height: 312px;
     flex-wrap: nowrap;
-    gap: 0;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footer-form-wrap {
+    margin-left: auto;
   }
 
   .footer-text-wrap {
@@ -1007,7 +1012,7 @@ button {
   pointer-events: auto;
 }
 
-.backdrop .is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -1161,6 +1166,7 @@ button {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
 
 @media screen and (min-width: 768px) {
   .modal {
