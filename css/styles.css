@@ -39,7 +39,7 @@ address {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -455,7 +455,7 @@ button {
     background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/background-image-mob@2x.jpg);
+      url(../images/background-image-mob.jpg);
   }
 }
 
@@ -464,7 +464,7 @@ button {
     background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/background-image-tab@2x.jpg);
+      url(../images/background-image-tab.jpg);
   }
 }
 
@@ -929,7 +929,9 @@ button {
   .footer-social-title {
     text-align: left;
   }
-
+  .footer-subscribe-input {
+    width: 264px;
+  }
   .footer-subscribe-text {
     max-width: 264px;
   }
