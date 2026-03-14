@@ -649,17 +649,25 @@ button {
 
 @media screen and (min-width: 768px) {
   .team-list {
-    gap: 72px 24px;
+    gap: 64px 24px;
   }
 
   .team-list-item {
     width: calc((100% - 24px) / 2);
   }
 
-  .team-section .container {
+  .socials-list-team {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  /* .team-section .container {
     padding-left: 108px;
     padding-right: 108px;
   }
+  */
 }
 
 @media screen and (min-width: 1158px) {
