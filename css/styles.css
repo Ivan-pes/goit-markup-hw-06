@@ -948,7 +948,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .footer .container {
-    margin-left: 180px;
+    padding: 0 108px;
     justify-content: start;
     gap: 72px 24px;
     align-items: baseline;
@@ -985,11 +985,11 @@ button {
 
   .footer .container {
     max-width: 1158px;
-    max-height: 312px;
     flex-wrap: nowrap;
-
+    padding: 0 15px;
     justify-content: center;
     align-items: flex-start;
+    gap: 0;
   }
 
   .footer-form-wrap {
@@ -1008,10 +1008,6 @@ button {
   .footer-socials-wrap {
     margin-right: 80px;
   }
-  .diva-for-text {
-      width: 264px;
-      height: 112px;
-    }
   
   .footer-subscribe-input {
       width: 264px;
